@@ -8,7 +8,7 @@ spillbrett._lagTomtRutenett()
 spillbrett._leggCellerIRutenett()
 spillbrett._generer()
 spillbrett.tegnBrett()
-while fortsette == "":
+while fortsette == "" "" "and fortsette != "q" """:
     spillbrett.oppdatering()
     spillbrett.tegnBrett()
     print("Generasjon: ", spillbrett._generasjonsnummer)
